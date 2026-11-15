@@ -1,0 +1,19 @@
+{
+  "name": "idle-zoo-tycoon",
+  "version": "0.1.0",
+  "description": "Idle Zoo Tycoon - a casual idle zoo-building sim (MVP)",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.6.3",
+    "vite": "^5.4.10",
+    "vitest": "^2.1.4"
+  }
+}
